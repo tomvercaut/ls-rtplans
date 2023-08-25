@@ -3,9 +3,10 @@ name = "ls-rplan"
 version = "0.1.0"
 edition = "2021"
 authors = ["Tom Vercauteren"]
-description = "List [DICOM] RTPlan files from a directory in a commandline interface."
+description = "List DICOM RTPlan files from a directory in a commandline interface."
 readme = "README.md"
 license = "MIT OR Apache-2.0"
 
 
 [dependencies]
+clap = { version = "4", features = ["derive"] }
