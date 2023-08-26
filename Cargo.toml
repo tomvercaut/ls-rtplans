@@ -10,3 +10,5 @@ license = "MIT OR Apache-2.0"
 
 [dependencies]
 clap = { version = "4", features = ["derive"] }
+dicom = "0.6"
+thiserror = "1"
